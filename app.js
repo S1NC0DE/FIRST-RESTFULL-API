@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 
 
 // connect to mongoDB
-mongoose.connect("mongodb+srv://papiwolfy:jaysn@999@cluster0.hgwim.mongodb.net/wikiDB?retryWrites=true/wikiDB", 
+mongoose.connect("mongodb+srv://<username:password>@cluster0.hgwim.mongodb.net/wikiDB?retryWrites=true/wikiDB", 
 {useNewUrlParser: true, useUnifiedTopology: true});  
 
 app.use(bodyParser.urlencoded({
